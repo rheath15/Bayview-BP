@@ -1,0 +1,83 @@
+/**Styles for the BP Bayview site
+Created by Renard Heath
+for ITD210 **/
+
+/**site background style **/
+
+
+/**Nav bar style **/
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus 
+{
+	color: #ffffff;  
+}
+	.navbar-inverse	{
+						background-color: #66CC33;
+						border-color: #66CC33;
+					}
+
+					
+
+
+
+#main{
+display: block;
+float: left;
+width:50%
+
+
+
+}
+main .article { 
+    float: left;
+	display: block;
+	padding:0;
+	padding-left: 20px;
+}
+
+
+aside {
+	
+	
+	padding:5px;
+	height:500px;
+	width:335px;
+	float: right;
+	display:block;
+	background: #66CC33;
+	border: solid thick yellow;
+	border-radius: 1em;
+	box-shadow: black 0.5em 0.5em 0.3em;
+}
+
+
+
+
+aside h1 {
+	
+	font-style: italic !important;
+	Color: yellow;
+	
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #66CC33;
+   color: white;
+   text-align: center;
+}
+
+/**Carousel Style override bootstrap **/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+     display: block;
+     max-width: 100%;
+     height: 500px !important;
+	 
+}
+
+
